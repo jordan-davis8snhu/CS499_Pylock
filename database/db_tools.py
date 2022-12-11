@@ -1,4 +1,4 @@
-
+# tools for interacting with the mysql database - these functions are integrated into the CRUD functions in Locker.py
 def create_db(cursor):
 
     create = "CREATE DATABASE if not exists pylock;"
